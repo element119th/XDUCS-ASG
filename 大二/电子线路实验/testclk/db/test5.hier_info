@@ -1,0 +1,12 @@
+|test5
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.ACLR
+CLK => inst1.ACLR
+CLK => inst2.ACLR
+CLK => inst3.ACLR
+cp => inst.CLK
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
